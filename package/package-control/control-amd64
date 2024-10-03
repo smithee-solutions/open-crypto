@@ -1,0 +1,10 @@
+Package: libeac-crypto-open-gcm
+Version: 0.00
+Section: custom
+Priority: optional
+Architecture: amd64
+Essential: no
+Installed-Size: 1024
+Maintainer: github@smithee.solutions
+Description: crypto API for EAC use of GCM
+

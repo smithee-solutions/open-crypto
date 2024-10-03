@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p /opt/openbadger/log
+mkdir -p /opt/openbadger/bin
+mkdir -p /opt/openbadger/etc
+
+
