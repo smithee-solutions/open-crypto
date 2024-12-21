@@ -9,7 +9,7 @@ all:
 clean:
 	(cd src; make clean)
 	(cd package; make clean)
-	rm -rf opt *.deb
+	rm -rf build opt *.deb
 
 package:	all
 	(cd package; make package)

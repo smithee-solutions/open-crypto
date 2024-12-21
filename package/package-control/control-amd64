@@ -1,5 +1,5 @@
 Package: libeac-crypto-open-gcm
-Version: 0.00
+Version: 0.01
 Section: custom
 Priority: optional
 Architecture: amd64
