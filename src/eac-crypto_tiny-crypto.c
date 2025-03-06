@@ -33,6 +33,7 @@ int eac_crypto_encrypt_add
   memcpy(tmp, input->raw, input->raw_lth);
   AES_CBC_encrypt_buffer(&(internal->aes_context), tmp, input->raw_lth);
   memcpy(output->raw, tmp, input->raw_lth);
+  output->raw_lth = input->raw_lth;
 
   return(status);
 
